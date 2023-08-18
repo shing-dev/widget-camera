@@ -1,4 +1,4 @@
-import { Fragment, h } from 'preact';
+import React, { Fragment } from 'react';
 import classNames from 'classnames';
 
 import SVGGrade from '../SVGComponents/SVGGrade';

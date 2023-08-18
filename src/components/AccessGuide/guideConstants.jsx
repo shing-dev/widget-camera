@@ -1,4 +1,4 @@
-import { h } from 'preact';
+import React from 'react';
 
 import ios_1 from '../../images/ios-1.png';
 import ios_2 from '../../images/ios-2.png';

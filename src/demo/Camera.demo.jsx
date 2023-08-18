@@ -1,4 +1,5 @@
-import { h, Component, render } from "preact";
+import { Component } from "react";
+import { render } from 'react-dom'
 import Camera from "../Camera.jsx";
 
 export default class App extends Component {

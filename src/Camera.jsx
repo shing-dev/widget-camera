@@ -1,10 +1,9 @@
-import {
-  h,
-  render,
+import React, {
   Component,
   createRef,
   Fragment,
-} from 'preact';
+} from 'react';
+import { render } from 'react-dom';
 import classNames from 'classnames';
 
 import AllowFrame from './components/AllowFrame/AllowFrame';

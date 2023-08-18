@@ -210,11 +210,6 @@ module.exports = {
     modules: [
       'node_modules',
     ],
-    alias: {
-      react: 'preact/compat',
-      'react-dom/test-utils': 'preact/test-utils',
-      'react-dom': 'preact/compat',
-    },
   },
   optimization: {
     minimizer: [
@@ -252,8 +247,5 @@ module.exports = {
     host: '0.0.0.0',
     port: 9000,
     historyApiFallback: true,
-  },
-  externals: {
-    preact: (mode === 'production') ? 'preact' : false,
   },
 };

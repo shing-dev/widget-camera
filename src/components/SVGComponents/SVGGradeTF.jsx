@@ -1,5 +1,4 @@
-/* eslint-disable react/no-unknown-property */
-import { h } from 'preact';
+import React from 'react';
 
 const SVGGradeTF = (props) => (
   <svg
